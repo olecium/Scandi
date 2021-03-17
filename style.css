@@ -71,6 +71,10 @@ p{
 .nav ul li a{
     color: #533738; 
 }
+.nav ul li a:hover,
+.nav ul li a:focus{
+    text-decoration: underline;
+}
 .page-header .phone{  
     margin-left: 13px;  
 }
@@ -88,6 +92,12 @@ p{
     align-items: center;
     justify-content: center;
     background-color: #CC8B86;
+    cursor: pointer;
+}
+.apply:hover,
+.apply:focus{
+    background-color: #bb706b;
+    color: #fff;
 }
 #intro{
     width: 535px;
@@ -196,8 +206,13 @@ p{
     margin: 0 0 60px;
 }
 #portfolio .more a{
+    cursor: pointer;
     padding-right: 80px;
     background: transparent url("images/arrow.png") no-repeat scroll 100% 55%;
+}
+#portfolio .more a:hover,
+#portfolio .more a:focus{
+    text-decoration: underline;
 }
 #team{
     background-color: #E2C4BA;
@@ -291,6 +306,10 @@ p{
     border: 0 none;
     padding: 0;
     position: relative;
+    cursor: pointer;
+}
+#reviews .reviews .nav-btn:hover{
+    background-color: #bb706b;
 }
 #reviews .reviews .nav-btn::before,
 #reviews .reviews .nav-btn::after{    
@@ -357,6 +376,9 @@ p{
 .page-footer{
     font-size: 18px;
     line-height: 30px;
+}
+.page-footer .padding-wrapper {
+    padding-left: 0;
 }
 .footer-text{
     display: flex;
